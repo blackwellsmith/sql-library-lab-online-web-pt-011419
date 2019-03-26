@@ -8,7 +8,25 @@ CREATE TABLE subgenres
 (
 id INT PRIMARY KEY,
 name TEXT);
-CREATE TABLE authors(id INT PRIMARY KEY)
-CREATE TABLE books(id INT PRIMARY KEY)
-CREATE TABLE characters(id INT PRIMARY KEY)
-CREATE TABLE books(id INT PRIMARY KEY)
+CREATE TABLE authors
+(
+id INT PRIMARY KEY,
+name TEXT);
+CREATE TABLE books
+(
+id INT PRIMARY KEY,
+title TEXT,
+year INT,
+series_id int);
+CREATE TABLE characters
+(
+id INT PRIMARY KEY,
+name TEXT,
+motto TEXT,
+species TEXT,
+author_id INT,
+series_id INT);
+CREATE TABLE books
+(
+id INT PRIMARY KEY,
+)
