@@ -1,6 +1,13 @@
-CREATE TABLE series (
-id INT PRIMARY KEY)
-CREATE TABLE subgenres(id INT PRIMARY KEY)
+CREATE TABLE series 
+(
+id INT PRIMARY KEY,
+title TEXT,
+author_id TEXT,
+subgenres_id TEXT);
+CREATE TABLE subgenres
+(
+id INT PRIMARY KEY,
+name TEXT);
 CREATE TABLE authors(id INT PRIMARY KEY)
 CREATE TABLE books(id INT PRIMARY KEY)
 CREATE TABLE characters(id INT PRIMARY KEY)
