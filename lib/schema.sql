@@ -28,6 +28,6 @@ author_id INT,
 series_id INT);
 CREATE TABLE character_books
 (
-id INT PRIMARY KEY,
+id INTEGER PRIMARY KEY,
 book_id INT,
 character_id INT);
