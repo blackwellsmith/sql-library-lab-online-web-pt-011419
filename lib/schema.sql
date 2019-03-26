@@ -3,7 +3,7 @@ CREATE TABLE series
 id INT PRIMARY KEY,
 title TEXT,
 author_id TEXT,
-subgenres_id TEXT);
+subgenre_id TEXT);
 CREATE TABLE subgenres
 (
 id INT PRIMARY KEY,
