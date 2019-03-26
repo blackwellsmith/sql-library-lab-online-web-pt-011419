@@ -30,5 +30,4 @@ CREATE TABLE character_books
 (
 id INT PRIMARY KEY,
 book_id INT,
-character_id INT
-)
+character_id INT);
